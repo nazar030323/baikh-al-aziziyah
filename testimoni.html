@@ -1,0 +1,80 @@
+<!DOCTYPE html><html><head><title>Testimoni</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background-color: #f0fdf4;
+    color: #084c41;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  header {
+    background-color: #d1fae5;
+    text-align: center;
+    padding: 20px;
+  }
+  nav {
+    background-color: #10b981;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .dark-mode {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+  .wa-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 999;
+  }
+  .toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ccc;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+  }
+</style>
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+  }
+</script>
+</head>
+<body>
+<header><h1>Testimoni Alumni & Santri</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="santri.html">Santri</a>
+  <a href="galeri.html">Galeri</a>
+  <a href="jadwal.html">Jadwal</a>
+</nav>
+<button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+<a class="wa-button" href="https://wa.me/6281234567890" target="_blank">&#x2709;</a>
+
+<section style="padding:20px;">
+  <blockquote>"Saya belajar banyak adab dan ilmu di BPBI Al Aziziyah. Ustadznya sabar dan ilmunya dalam." - <i>Ahmad Fauzan</i></blockquote>
+  <blockquote>"Pengajian kitab kuning di sini sangat mendalam, saya merasa sangat terbantu." - <i>Siti Nuraini</i></blockquote>
+</section>
+</body></html>
